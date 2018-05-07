@@ -1,0 +1,15 @@
+h1 {
+  color: red;
+}
+#error {
+  color: red;
+}
+#toDoList {
+  list-style-type: none;
+}
+.marginRight10 {
+  margin-right: 10px;
+}
+.done {
+  text-decoration-line: line-through;
+}

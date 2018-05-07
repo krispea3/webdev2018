@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>ToDo List</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+  </head>
+
+  <body>
+
+    <h1>TODO List</h1>
+    <h3>Enter new items to your ToDo List</h3>
+    <p id="error"></p>
+    <input type="text" id="todoItem" name="todoItem" placeholder="enter new Todo item" autofocus="autofocus" />
+    <button id="addItem">Add item</button>
+
+    <ul id="toDoList">
+      <li><p><input type="checkbox" id="checkBoxSelectAll" class="marginRight10" />SelectAll</p></li>
+      <li id="listItem1"><input type="checkbox" id="checkBox1" class="listCheckbox marginRight10"/>Buy coffee</li>
+      <li id="listItem2"><input type="checkbox" id="checkBox2" class="listCheckbox marginRight10"/>Wash the car</li>
+    </ul>
+    <button id="markAsDone">Mark as Done!</button>
+    <button id="deleteList">Delete</button>
+
+    <!--jQuery CDN  -->
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+
+    <!-- <script type="text/javascript" src="script.js"></script> -->
+    <script type="text/javascript" src="scriptJq.js"></script>
+
+
+  </body>
+
+</html>
